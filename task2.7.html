@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>task 2.7</title>
+    <style media="screen">
+
+      .static{
+
+        width: 150px;
+        height: 110px;
+        background-color: blueviolet;
+        color: white;
+      }
+      .relative1{
+        position: relative;
+        background-color: darkred;
+        width: 150px;
+        height: 110px;
+        color: white;
+      }
+      .relative2{
+        position: relative;
+        top: -35px;
+        left:25px;
+        background-color: peru;
+        width: 150px;
+        height: 110px;
+        color: white;
+      }
+      #relative3{
+        position: relative;
+        background-color: indianred;
+        width: 600px;
+        height: 400px;
+        color: white;
+      }
+      #absolute{
+        position: absolute;
+        background-color: indigo;
+        top:150px;
+        left:300px;
+        width: 300px;
+        height: 180px;
+        color: white;
+      }
+      #fixed{
+        position: fixed;
+        width:100px;
+        height:130px;
+        background-color: forestgreen;
+        color:white;
+        bottom:0;
+        right:0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="static">
+      It's a static div!
+    </div>
+    <div class="relative1">
+      It's a relative div!
+    </div>
+    <div class="relative2">
+      It's a relative div!
+    </div>
+    <div id="relative3">
+      It's a relative div!
+      <div id="absolute">
+        It's an absolute div with relative parent!
+      </div>
+    </div>
+    <div id="fixed">
+      It's a fixed div!
+    </div>
+  </body>
+</html>
